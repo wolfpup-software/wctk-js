@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<body>
+	<head>
+		<!-- scripts -->
+		<script type="importmap">
+			{
+			  "imports": {
+				"wctk": "/dist/mod.js"
+			  }
+			}
+		</script>
+		<script src="./mod.js" type=module></script>
+	</head>
+	<main>
+		<form>
+			<!-- web component -->
+			<text-wc role="text">
+				<!-- template -->
+				<template shadowrootmode="closed">
+					<input>
+				</template>
+			</text-wc>
+			<button type="submit">submit !</button>
+		</form>
+	</main>
+</body>
